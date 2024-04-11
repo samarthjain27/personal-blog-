@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(192, 182, 182);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    padding: 15px 0px 15px 0px;
+    background-color: #FF9130;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FF9130;
+}
+a:hover{
+    transition: all 300ms linear;
+    background-color: #FECDA6;
+}
+li{
+    list-style: none;   
+}
+.container{
+    margin: 20px;
+}
+.paragraph{
+    margin: 20px;
+    text-align: left;
+    box-shadow: 2px 2px 5px 5px;
+    padding: 0px 20px 10px 20px;
+    font-size: 20px;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top:10px ;
+}
+.flex{
+    display: flex;
+}
+img{
+    padding: 10px;
+}
+#friends{
+    padding-left: 200px ;
+}
+#boat{
+    width: 55%;
+    height: 250px;
+}
+#pub{
+    height: 300px ;
+    padding-right: 20px;
+}
+#temple{
+    width: 55%;
+    height: 250px;
+
+}
+#end{
+    padding-left: 340px;
+    height: 400px;
+    padding-top: 20px;
+}
+#beach{
+    height: 350px;
+    padding: 20px;
+}
+#importance{
+    height: 300px;
+    float: left;
+    
+}
+#odd{
+    text-align: right;
+}
+#stress{
+    height: 300px;
+    /* padding-left: 20px; */
+    float: right;
+}
+#beng{
+    height: 400px;
+    padding-left: 250px ;
+    padding-top: 20px;
+}
+#myself{
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+
+ol{
+    padding: 25px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#ball{
+    width: 1400px;
+    height: 355px;
+    padding-bottom: 60px    ;
+    padding-right:20px ;
+}
